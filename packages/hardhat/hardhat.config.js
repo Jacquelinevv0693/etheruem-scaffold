@@ -257,14 +257,7 @@ module.exports = {
       accounts: {
         mnemonic: mnemonic(),
       },
-    },
-    godwoken: {
-      url: 'https://godwoken-testnet-v1.ckbapp.dev',
-      chainId: 71401,
-      accounts: {
-        mnemonic: mnemonic(),
-      },
-    },
+    }
   },
   solidity: {
     compilers: [
