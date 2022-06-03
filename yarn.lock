@@ -17047,7 +17047,7 @@ pkg-up@^2.0.0:
 pkginfo@0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/pkginfo/-/pkginfo-0.4.1.tgz#b5418ef0439de5425fc4995042dced14fb2a84ff"
-  integrity sha512-8xCNE/aT/EXKenuMDZ+xTVwkT8gsoHN2z/Q29l80u0ppGEXVvsKRzNMbtKhg8LS8k1tJLAHHylf6p4VFmP6XUQ==
+  integrity sha1-tUGO8EOd5UJfxJlQQtztFPsqhP8=
 
 plugin-error@^0.1.2:
   version "0.1.2"
