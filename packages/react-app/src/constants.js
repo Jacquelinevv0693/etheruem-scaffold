@@ -9,17 +9,13 @@ export const BLOCKNATIVE_DAPPID = "0b58206a-f3c0-4701-a62f-73c7243e8c77";
 
 export const ALCHEMY_KEY = "oKxs-03sij-U_N0iOlrSsZFr29-IqbuF";
 
-const localRpcUrl = process.env.REACT_APP_CODESPACES
-  ? `https://${window.location.hostname.replace("3000", "8545")}`
-  : "http://" + (global.window ? window.location.hostname : "localhost") + ":8545";
-
 export const NETWORKS = {
   localhost: {
     name: "localhost",
     color: "#666666",
     chainId: 31337,
     blockExplorer: "",
-    rpcUrl: localRpcUrl,
+    rpcUrl: "http://" + (global.window ? window.location.hostname : "localhost") + ":8545",
   },
   mainnet: {
     name: "mainnet",
@@ -181,7 +177,7 @@ export const NETWORKS = {
     color: "#53CBC9",
     chainId: 1284,
     blockExplorer: "https://moonscan.io",
-    rpcUrl: "https://rpc.api.moonbeam.network",
+    rpcUrl: "https://rpc.api.moonbeam.network", 
   },
   moonriver: {
     name: "moonriver",
@@ -204,7 +200,7 @@ export const NETWORKS = {
     chainId: 1281,
     blockExplorer: "https://moonbeam-explorer.netlify.app/",
     rpcUrl: "http://127.0.0.1:9933",
-  },
+  }
 };
 
 export const NETWORK = chainId => {
